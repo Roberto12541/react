@@ -17,7 +17,7 @@ function App() {
             <h1 className="text-center text-5xl text-white">Etapas del proceso de escritura</h1>
             <div className="escritura">
               <div className="etapa">
-                <img src="./src/assets/img/planeacion.png" alt="" className="w-[50%]" />
+                <img src="./assets/img/planeacion.png" alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Planeación</h2>
                 <p>Organización tus ideas, frases, estructura.</p>
               </div>
