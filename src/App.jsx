@@ -1,5 +1,13 @@
 import "./App.css";
 import planeacion from './assets/img/planeacion.png';
+import preescritura from './assets/img/reescritura.png';
+import borrador from './assets/img/borrador.png';
+import revision from './assets/img/revision.png';
+import redaccion from './assets/img/redaccion.png';
+import estilo from './assets/img/estilo.png';
+import proceso from './assets/img/proceso.png';
+import mariolector from './assets/img/mariolector.png';
+import caja from './assets/img/caja.png';
 
 function App() {
   return (
@@ -23,22 +31,22 @@ function App() {
                 <p>Organización tus ideas, frases, estructura.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/reescritura.png" alt="" className="w-[50%]" />
+                <img src={preescritura} alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Preescritura</h2>
                 <p className="text-center">Seleccionar género, reconocer audiencia, identificar motivos, etc.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/borrador.png" alt="" className="w-[50%]" />
+                <img src={borrador} alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Borrador</h2>
                 <p className="text-center">Coloca todas tus ideas en papel en forma de lista o como texto.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/revision.png" alt="" className="w-[50%]" />
+                <img src={revision} alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Revisión</h2>
                 <p className="text-center">Realizar una revisión de las ideas indentificadas asi como del texto.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/redaccion.png" alt="" className="w-[50%]" />
+                <img src={redaccion} alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Redacción</h2>
                 <p className="text-center">Lee cada frase, oración y párrafo para verificar si en ellos lograste lo que querías expresar.</p>
               </div>
@@ -50,12 +58,12 @@ function App() {
                   satisfaga.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/estilso.png" alt="" className="w-[50%]" />
+                <img src={estilo} alt="" className="w-[50%]" />
                 <h2 className="text-2xl">Estilo</h2>
                 <p className="text-center">En él te definirás como escritor, dejaras tu marca con sobre la manera en que será visto.</p>
               </div>
               <div className="etapa">
-                <img src="./src/assets/img/proceso.png" alt="" className="w-[100%]" />
+                <img src={proceso} alt="" className="w-[100%]" />
               </div>
             </div>
           </div>
@@ -73,7 +81,7 @@ function App() {
                   </div>
                 </div>
               </div>
-              <img src="./src/assets/img/mariolector.png" alt="" />
+              <img src={mariolector} alt="" />
             </div>
             {/* <div style={{ width: '40%' }}> */}
 
@@ -97,11 +105,11 @@ function App() {
             </div>
             <div className="botones">
               <a href="https://www.youtube.com/watch?v=T3WJE1mgZs4&ab_channel=DiscosMusart" target="_blank">
-                <img src="./src/assets/img/caja.png" alt="" className="" />
+                <img src={caja} alt="" className="" />
                 <span className="text-3xl">Cancion</span>
               </a>
               <a href="https://genius.com/Joan-sebastian-secreto-de-amor-lyrics" target="_blank">
-                <img src="./src/assets/img/caja.png" alt="" className="" />
+                <img src={caja} alt="" className="" />
                 <span className="text-3xl">Letra</span>
               </a>
             </div>
