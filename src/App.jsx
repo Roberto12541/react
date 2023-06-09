@@ -4,7 +4,7 @@ import preescritura from './assets/img/reescritura.png';
 import borrador from './assets/img/borrador.png';
 import revision from './assets/img/revision.png';
 import redaccion from './assets/img/redaccion.png';
-import estilo from './assets/img/estilo.png';
+import estilo from './assets/img/estilso.png';
 import proceso from './assets/img/proceso.png';
 import mariolector from './assets/img/mariolector.png';
 import caja from './assets/img/caja.png';
